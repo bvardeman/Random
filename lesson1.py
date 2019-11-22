@@ -6,16 +6,16 @@
 
 #print (one)
 
-number = 2
+number = 100
 number2 = 3
 floater = 1.75
-boolean = False
+#boolean = True
 
-if number == 100:
-	print ('fuck you')
-	
-elif not boolean:
-	print ('you bitch')
+if number < 100:
+	print ('less than 100')
+
+elif number > 100:
+	print ('greater than 100')
 
 else:
-	print ('finally you dumbass')
+	print ('equals 100')
